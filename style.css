@@ -1,0 +1,189 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  margin: 0;
+  font-family: Noto Sans Korean, sans-serif;
+  overflow: auto;
+  background-image: url("bed-sheet-pillow-white.jpg");
+  background-size: cover; /* 이미지를 늘리거나 줄여 배경을 가득 채움 */
+  background-repeat: repeat; /* 이미지를 반복하여 배경을 채움 */
+}
+
+.container {
+  text-align: center;
+  max-width: 1080px;
+  /* margin: 0 auto; */
+}
+#please {
+  font-size: 20px;
+}
+
+/* h1 {
+  color: #333;
+} */
+
+/* input[type="text"] {
+  width: 50%;
+  padding: 8px;
+} */
+
+button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #000; /* 버튼 텍스트 색상 */
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-button {
+  background-color: #ff3333;
+  color: #fff;
+  border: none;
+  padding: 2px 8px;
+  cursor: pointer;
+}
+#weather {
+  margin-top: 10px;
+  color: rgb(49, 42, 33);
+  font-size: 20px;
+}
+.datetime {
+  color: rgb(49, 42, 33);
+  font-size: 20px;
+}
+#datetime {
+  margin-bottom: 10px;
+}
+#IDPASSWORD {
+  font-weight: 600;
+}
+#login-form {
+  margin-top: 30px;
+}
+
+/* #IDEnter,
+#PasswordEnter,
+#login-form {
+  margin-bottom: 10px;
+} */
+
+#IDEnter input {
+  display: flex;
+
+  text-align: center;
+  border-radius: 20px;
+
+  width: 400px;
+  height: 30px;
+  margin-bottom: 10px;
+}
+
+#IDEnter {
+  display: flex;
+  justify-content: center;
+}
+
+#PasswordEnter {
+  display: flex;
+  justify-content: center;
+}
+
+#PasswordEnter input {
+  display: flex;
+
+  text-align: center;
+  border-radius: 20px;
+
+  width: 400px;
+  height: 30px;
+}
+
+#loginButton {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #000; /* 버튼 텍스트 색상 */
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+#loginButton button {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+#taskInput {
+  display: flex;
+
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 20px;
+
+  width: 100%;
+  height: 30px;
+}
+
+#HerosOfTheStorm {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #000;
+}
+
+#rockpaperscissorsImage {
+  background-color: transparent;
+  border: 1px solid transparent;
+  color: #000; /* 버튼 텍스트 색상 */
+  padding: 10px 20px;
+  opacity: 0.8; /* 0.5는 투명도를 나타냄 (0부터 1까지 가능) */
+
+  border-radius: 20px;
+}
+
+.rounded-image {
+  border-radius: 50%; /* 50%를 사용하여 원 모양의 이미지로 표현할 수 있습니다 */
+  overflow: hidden; /* 주어진 형태 외의 이미지 부분을 가려줍니다 */
+  width: 400px; /* 이미지의 너비 */
+  height: 400px; /* 이미지의 높이 */
+}
+
+#username {
+  margin-top: 10px;
+}
+
+/* #please {
+  font-size: xx-large;
+} */
+
+li {
+  cursor: pointer;
+}
+
+#rounded-image {
+  border-radius: 20px;
+}
